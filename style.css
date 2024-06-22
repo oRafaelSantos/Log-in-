@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+fieldset{
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #F1F1F1;
+  border: none;
+  box-shadow: 9px 5px;
+}
+
+.title{
+  text-align: center;
+}
+
+.divInput{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+input{
+  padding: 10px;
+  outline: none;
+  border: 1px solid #D4D4D4;
+  border-radius: 5px;
+  transition-duration: 1s;
+  transform: all 0.3s;
+}
+
+input:hover, input:focus{
+  border-color: blueviolet;
+}
+
+.btnEntrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  padding: 10px;
+  margin: 20px;
+  width: 70%;
+  border: 1px solid #42445A;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: blueviolet;
+  color: white;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+button:hover{
+  width: 90%;
+  transition: 1s ease;
+  background: #F1F1F1;
+  color: blueviolet;
+}
+
+.rodape{
+  font-size: 14px;
+  text-align: center;
+}
+
+.rodape a{
+  text-decoration-line: none;
+  color: blueviolet;
+}
+
+#alertEmail, #alertSenha{
+  font-size: 12px;
+  color: Red;
+}
